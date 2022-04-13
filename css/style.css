@@ -1,0 +1,892 @@
+/*Website Template by freewebsitetemplates.com*/
+@font-face {
+	font-family: 'Wellfleet-Regular';
+	src: url('../fonts/c.eot');
+	src: url('../fonts/Wellfleet-Regular.woff') format('woff'), url('../fonts/Wellfleet-Regular.ttf') format('truetype'), url('../fonts/Wellfleet-Regular.svg') format('svg');
+}
+body {
+	background: url(../images/Layer1.png) repeat;
+	color: #868466;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#background {
+	background: url(../images/gradient.png) repeat-x top left;
+	margin: 0;
+	padding: 0;
+}
+#page {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#header {
+	background: url(../images/newheader.png) ;
+	height: 180px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#header a.logo {
+	color: #ebdde7;
+	display: block;
+	float: left;
+	font-family: 'Wellfleet-Regular';
+	font-size: 48px;
+	font-weight: normal;
+	margin: 65px 20px 0 38px;
+	padding: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 422px;
+}
+#header ul {
+	float: right;
+	margin: 0;
+	padding: 37px 0 20px;
+	width: 480px;
+}
+#header ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 10px 0;
+	padding: 0 40px 0 10px;
+	width: 190px;
+}
+#header ul li a {
+	color: #9b9a8b;
+	display: block;
+	font-family: 'Wellfleet-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #aaff9f;
+}
+#header ul li.selected a {
+	text-transform: uppercase;
+}
+#body {
+	margin: 0;
+	min-height: 750px;
+	padding: 0;
+}
+#body #figure {
+	background: url(../images/) no-repeat top center;
+	height: 457px;
+	margin: 0 0 30px;
+	overflow: hidden;
+	padding: 0;
+}
+#body #figure img, #body #figure a {
+	border: 0;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#body #section {
+	margin: 0;
+	padding: 0;
+}
+#body #section h1 {
+	background: url(../images/bg-heading.png) no-repeat top left;
+	color: #f8f4e3;
+	font-family: 'Wellfleet-Regular';
+	font-size: 24px;
+	font-weight: normal;
+	height: 62px;
+	line-height: 53px;
+	margin: 0;
+	padding: 0 430px 0 20px;
+	text-transform: uppercase;
+}
+#body #section > div {
+	background: url(../images/bg-content.png) repeat-y top center;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0;
+}
+#body #section div .article {
+	float: left;
+	width: 640px;
+}
+#body #section div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #section div .article p {
+	padding: 0 30px;
+}
+#body #section div p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #section div p a:hover {
+	color: #eeeadc;
+}
+#body #section div .article ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 17px 0 0;
+}
+#body #section div .article ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0 30px;
+	width: 260px;
+}
+#body #section div .article ul li > a {
+	background: url(../images/frame3.jpg) no-repeat top center;
+	display: block;
+	padding: 10px;
+}
+#body #section div .article ul li > a img {
+	border: 1px solid #f8f4e3;
+	display: block;
+}
+#body #section div .article ul li > a:hover img {
+	opacity: 0.8;
+}
+#body #section div .article ul li span {
+	color: #c6440a;
+	display: block;
+	font-family: 'Wellfleet-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 13px 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body #section div .aside {
+	float: left;
+	width: 320px;
+}
+#body #section div .aside div {
+	margin: 0;
+	padding: 0 30px 26px;
+}
+#body #section div .aside div:first-child {
+	padding-bottom: 76px;
+}
+#body #section div .aside div h3 {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #section div .aside ul, #body #section div .aside ul li {
+	margin: 0;
+	padding: 0;
+}
+#body #section div .aside ul li {
+	background: url(../images/border-dashed.png) repeat-x top left;
+	list-style: none;
+	padding: 10px 0;
+}
+#body #section div .aside ul li:first-child {
+	background: none;
+	padding-top: 0;
+}
+#body #section div .aside div form {
+	margin: 0;
+	padding: 5px 0 0;
+}
+#body #section div .aside div form input {
+	color: #ababab;
+	border: 1px solid #e3ddc1;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 10px;
+	width: 238px;
+}
+#body #content, #body #blog, #body #contact {
+	background: url(../images/bg-content.png) repeat-y top center;
+	margin: 0;
+	min-height: 750px;
+	overflow: hidden;
+	padding: 0;
+}
+#body #content {
+	padding: 0 0 20px;
+}
+#body #content .section {
+	background: url(../images/frame2.png) no-repeat top center;
+	height: 403px;
+	margin: 20px 0 0;
+	padding: 27px 0;
+}
+#body #content .section h2 {
+	color: #fff77c;
+	font-family: 'Wellfleet-Regular';
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 30px;
+	text-transform: uppercase;
+}
+#body #content .section ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 17px 0;
+}
+#body #content .section ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 30px;
+	padding: 0;
+	width: 260px;
+}
+#body #content .section ul li > a {
+	display: block;
+}
+#body #content .section ul li > a img {
+	border: 1px solid #efe9d4;
+	display: block;
+}
+#body #content .section ul li > a:hover {
+	opacity: 0.8;
+}
+#body #content .section p {
+	color: #f8f4e3;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 30px;
+}
+#body #content .section p a {
+	color: #f8f4e3;
+	text-decoration: underline;
+}
+#body #content .section p a:hover {
+	color: #fff;
+}
+#body #content .gallery {
+	margin: 0;
+	overflow: hidden;
+	padding: 20px 0 0;
+}
+#body #content .gallery ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 16px;
+}
+#body #content .gallery ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0 30px;
+	width: 420px;
+}
+#body #content .gallery ul li > a {
+	background: url(../images/frame3.jpg) repeat-x top left;
+	display: block;
+	margin: 0;
+	padding: 10px;
+}
+#body #content .gallery ul li > a img {
+	border: 1px solid #f8f4e3;
+	display: block;
+}
+#body #content .gallery ul li > a:hover {
+	opacity: 0.8;
+}
+#body #content .gallery ul li span {
+	display: block;
+	padding: 13px 0;
+	text-align: center;
+}
+#body #content .gallery ul li span a {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body #content .gallery p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0 30px;
+}
+#body #content .gallery p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #content .gallery p a:hover {
+	color: #736229;
+}
+#body #content #article {
+	float: left;
+	margin: 0;
+	padding: 24px 20px;
+	width: 600px;
+}
+#body #content #article li {
+	background: #fff;
+	border-radius: 2px;
+	list-style: none;
+	margin: 0 0 17px;
+	padding: 20px;
+}
+#body #content #article li h3 {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 5px;
+	text-transform: uppercase;
+}
+#body #content #article li p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content #article li p b {
+	display: block;
+	padding: 0 0 23px;
+}
+#body #content #article li p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #content #article li p a:hover {
+	color: #438a93;
+}
+#body #content #sidebar {
+	float: left;
+	margin: 0;
+	padding: 58px 30px 0 10px;
+	width: 280px;
+}
+#body #content #sidebar div {
+	margin: 0;
+	padding: 0;
+}
+#body #content #sidebar div h3 {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #content #sidebar div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content #sidebar div p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #content #sidebar div p a:hover {
+	color: #746329;
+}
+#body #content > h1, #body #contact > h1 {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 32px 30px 16px;
+	text-transform: uppercase;
+}
+#body #content .tickets {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body #content .tickets li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#body #content .tickets > li {
+	background: #fff;
+	display: block;
+	float: left;
+	height: 307px;
+	margin: 0 25px 37px 25px;
+	padding: 20px;
+	width: 230px;
+}
+#body #content .tickets > li.last {
+	background: none;
+	padding: 0;
+	width: 270px;
+}
+#body #content .tickets li h3 {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #content .tickets li p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #content .tickets li p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #content .tickets li p a:hover {
+	color: #736229;
+}
+#body #content .tickets ul {
+	margin: 0;
+	padding: 0;
+}
+#body #content .tickets ul li {
+	display: block;
+	overflow: hidden;
+	padding: 30px 0 0;
+}
+#body #content .tickets ul li span {
+	display: block;
+	float: left;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	width: 82px;
+}
+#body #content .tickets ul li span:first-child {
+	padding: 0 40px 0 0;
+	width: 108px;
+}
+#body #blog > ul {
+	float: left;
+	margin: 0;
+	padding: 12px 20px;
+	width: 680px;
+}
+#body #blog > ul li {
+	background: #fff;
+	border-radius: 2px;
+	list-style: none;
+	margin: 0 0 12px;
+	padding: 20px;
+}
+#body #blog > ul li span {
+	display: block;
+	line-height: 24px;
+}
+#body #blog > ul li span a {
+	color: #868466;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#body #blog > ul li span a:hover {
+	color: #736229;
+}
+#body #blog > ul li h3 {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #blog > ul li p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #blog > ul li h3 a, #body #blog > ul li p a {
+	color: #868466;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#body #blog > ul li h3 a {
+	text-decoration: none;
+}
+#body #blog > ul li h3 a:hover, #body #blog > ul li p a:hover {
+	color: #736229;
+}
+#body #blog > ul li div {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body #blog > ul li div > a {
+	background: url(../images/frame3.jpg) repeat;
+	display: block;
+	margin: 7px 0 0;
+	padding: 10px;
+}
+#body #blog > ul li div a.figure1 {
+	float: left;
+	margin-right: 20px;
+}
+#body #blog > ul li div a.figure2 {
+	float: right;
+	margin-left: 20px;
+}
+#body #blog > ul li div > a img {
+	border: 1px solid #f8f4e3;
+	display: block;
+}
+#body #blog > ul li div > a:hover img {
+	opacity: 0.8;
+}
+#body #blog #sidebar {
+	float: left;
+	margin: 0;
+	padding: 0 36px 0 10px;
+	width: 194px;
+}
+#body #blog #sidebar div {
+	margin: 0;
+	padding: 35px 0 10px;
+}
+#body #blog #sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+#body #blog #sidebar h3 {
+	color: #c6440a;
+	font-family: 'Wellfleet-Regular';
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 6px;
+	text-transform: uppercase;
+}
+#body #blog #sidebar ul li {
+	list-style: none;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #blog #sidebar .recent ul li {
+	background: url(../images/border-dashed.png) repeat-x top left;
+	padding: 12px 0;
+}
+#body #blog #sidebar .recent ul li:first-child {
+	background: none;
+	padding-top: 0;
+}
+#body #blog #sidebar .archive ul li {
+	background: url(../images/bullet.png) no-repeat 0 10px;
+	padding: 0 0 0 20px;
+}
+#body #blog #sidebar ul li span {
+	display: block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+#body #blog #sidebar ul li span a {
+	text-transform: capitalize;
+}
+#body #blog #sidebar ul li a {
+	color: #868466;
+	text-decoration: none;
+}
+#body #blog #sidebar ul li a:hover {
+	color: #736229;
+	text-decoration: underline;
+}
+#body #contact {
+	padding-bottom: 32px;
+}
+#body #contact > div {
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 10px 30px;
+}
+#body #contact div .figure {
+	background: url(../images/frame3.jpg) repeat;
+	float: left;
+	margin: 0 20px;
+	padding: 20px;
+	width: 300px;
+}
+#body #contact div .figure img {
+	border: 1px solid #fff;
+	display: block;
+}
+#body #contact div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body #contact div .figure p {
+	color: #f8f4e3;
+	padding: 12px 0 15px;
+}
+#body #contact div p a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #contact div p a:hover {
+	color: #736229;
+}
+#body #contact div .figure p a {
+	color: #f8f4e3;
+}
+#body #contact div .figure p a:hover {
+	color: #fff;
+}
+#body #contact div .section {
+	float: left;
+	margin: 0 20px;
+	padding: 5px 20px 0;
+	width: 480px;
+}
+#body #contact div .section ul, #body #contact div .section ul li {
+	margin: 0;
+	padding: 0;
+}
+#body #contact div .section ul {
+	padding: 10px 0 0;
+}
+#body #contact div .section ul li {
+	color: #989282;
+	line-height: 24px;
+	list-style: none;
+	margin: 0;
+	padding: 14px 0;
+}
+#body #contact div .section ul li span {
+	color: #c6440a;
+	display: block;
+	font-size: 16px;
+	font-family: 'Wellfleet-Regular';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #contact div .section ul li a {
+	color: #868466;
+	text-decoration: underline;
+}
+#body #contact div .section ul li a:hover {
+	color: #736229;
+}
+#body #contact form {
+	background: #fff;
+	border-radius: 2px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 20px 30px;
+	width: 860px;
+}
+#body #contact form span {
+	clear: both;
+	color: #c6440a;
+	display: block;
+	font-size: 16px;
+	font-family: 'Wellfleet-Regular';
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 17px;
+	text-transform: uppercase;
+}
+#body #contact form div {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 480px;
+}
+#body #contact form div.information {
+	margin: 0 58px 0 0;
+	width: 320px;
+}
+#body #contact form label {
+	color: #989282;
+	display: block;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+#body #contact form input {
+	background: #eeeddf;
+	border: 1px solid #dbdac8;
+	color: #999;
+	display: block;
+	height: 37px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+}
+#body #contact form div.information input {
+	font-size: 16px;
+	padding: 0 5px;
+	width: 308px;
+}
+#body #contact form textarea {
+	background: #eeeddf;
+	border: 1px solid #dbdac8;
+	color: #999;
+	display: block;
+	font-size: 16px;
+	height: 178px;
+	margin: 0 0 5px;
+	overflow: auto;
+	padding: 5px;
+	resize: none;
+	width: 468px;
+}
+#body #contact form #send {
+	background: url(../images/button.png) no-repeat 0 0;
+	border: 0;
+	cursor: pointer;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	width: 51px;
+}
+#body #contact form #send:hover {
+	background: url(../images/button.png) no-repeat 0 -29px;
+}
+#footer {
+	background: url(../images/bg-footer.png) no-repeat top center;
+	height: 222px;
+	margin: 0;
+	padding: 38px 0 31px;
+}
+#footer div {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#footer > p {
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+#footer div div {
+	float: left;
+	padding: 0 0 44px;
+	width: 320px;
+}
+#footer div div h3 {
+	color: #fff;
+	font-family: 'Wellfleet-Regular';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 30px 17px;
+	text-transform: uppercase;
+}
+#footer div div p {
+	color: #f8f4e3;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 30px;
+}
+#footer div div p span {
+	display: block;
+	text-transform: capitalize;
+}
+#footer div div p a {
+	color: #f8f4e3;
+	text-decoration: none;
+}
+#footer div div p a:hover {
+	color: #fffac2;
+	text-decoration: underline;
+}
+#footer div div ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#footer div div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer div div ul li a {
+	text-decoration: none;
+}
+#footer div div ul.category li {
+	margin: 0 10px 0 0;
+	padding: 0 0 0 30px;
+	line-height: 24px;
+	width: 120px;
+}
+#footer div div ul.category li a {
+	color: #f8f4e3;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#footer div div ul.category li a:hover {
+	color: #fffac2;
+	text-decoration: underline;
+}
+#footer div div ul.connect {
+	padding: 0 0 0 30px;
+}
+#footer div div ul.connect li {
+	margin: 0 12px 0 0;
+	width: 73px;
+}
+#footer div div ul.connect li a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	height: 72px;
+	text-indent: -99999px;
+	width: 73px;
+}
+#footer div div ul.connect #facebook a {
+	background-position: 0 0;
+}
+#footer div div ul.connect #facebook a:hover {
+	background-position: -78px 0;
+}
+#footer div div ul.connect #twitter a {
+	background-position: 0 -82px;
+}
+#footer div div ul.connect #twitter a:hover {
+	background-position: -78px -82px;
+}
+#footer div div ul.connect #googleplus a {
+	background-position: 0 -164px;
+}
+#footer div div ul.connect #googleplus a:hover {
+	background-position: -78px -164px;
+}
