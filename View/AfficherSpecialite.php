@@ -21,14 +21,14 @@ $listC=$spC->affichageList()
 					<li>
 						<a href="index.html">home</a>
 					</li>
-					<li>
+					<li class="selected">
 						<a href="blocs.html">Gestion blocs</a>
 					</li>
-					<li class="selected">
+					<li>
 						<a href="services.html">Gestion services</a>
 					</li>
 					<li>
-						<a href="comptes.html">Gestion Comptess</a>
+						<a href="comptes.html">Gestion Comptes</a>
 					</li>
 					<li>
 						<a href="produits.html">Produits</a>
@@ -68,13 +68,13 @@ $listC=$spC->affichageList()
       height: inherit;
       padding: 20px;
       }
-      form {
+      /* form {
       width: 100%;
       padding: 20px;
       border-radius: 6px;
-      background: #fff;
-      box-shadow: 0 0 20px 0 #a82877; 
-      }
+      /* background: #fff; */
+      /* box-shadow: 0 0 20px 0 #a82877;  */
+      } */
       .banner {
       position: relative;
       height: 500px;
@@ -227,6 +227,8 @@ $listC=$spC->affichageList()
 <th>Identifiant Specialite</th>
 <th>Nom Specialite</th>
 <th>Type Specialite</th>
+<th>Modifierr</th>
+<th>Supprimer </th>
     </tr>
 <?php
 
@@ -243,21 +245,23 @@ foreach ($listC as $row)
     echo('<td>');
     echo($row['TYPE_SPEC']);
     echo('</td>');
+    
     ?>
 <td>
 					<form method="POST" action="modifierSpecialite.php">
 						<input type="submit" name="Modifier" value="Modifier">
 						<input type="hidden" value=<?PHP echo $row['ID_SPEC']; ?> name="ID_SPEC">
 					</form>
-				</td>
+
+                    
+</td>
                 <td>
 					<a href="supprimerSpecialite.php?ID_SPEC=<?php echo $row['ID_SPEC']; ?>">Supprimer</a>
-				</td>
-                
+</td>
     <?php
     echo('</tr>');
 }
-
 ?>
+
 </table>
 </body>

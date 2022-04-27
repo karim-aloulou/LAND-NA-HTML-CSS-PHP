@@ -252,7 +252,7 @@
 			
 		<?php
 			if (isset($_POST['ID_SPEC'])){
-				$specialite = $spC->recupererSpecialite($_POST['ID_SPEC']);
+				$specialite = $spC->recupererSpecialite($_POST['ID_SPEC']);}
 				
 		?>
         
@@ -286,16 +286,10 @@
                         <input type="submit" value="Modifier"> 
                     </td>
                     <td>
-                        <input type="reset" value="Annuler" >
+                        <input type="reset" value="Annulerr" >
                     </td>
                 </tr>
             </table>
         </form>
-		
     </body>
 </html>
-
-
-
-
-

@@ -57,8 +57,8 @@ public function ajouterSpecialite($Specialite)
 				$query=$db->prepare($sql);
 				$query->execute();
 
-				$adherent=$query->fetch();
-				return $adherent;
+				$Specialite=$query->fetch();
+				return $Specialite;
 			}
 			catch (Exception $e){
 				die('Erreur: '.$e->getMessage());
