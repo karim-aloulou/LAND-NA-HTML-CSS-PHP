@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/cycle.css">
+    <link href='http://fonts.googleapis.com/css?family=Passion+One:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script>
+		jQuery(document).ready(function() {
+			$('#s2').cycle({ 
+				fx:     'fade', 
+				speed:  'slow', 
+				pager:  '#nav',
+				timeout: 8000, 
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div class="main">
+   <header> 
+    <h1><a href="index.html"><img src="images/logo1.png" height="50%" width="50%" alt=""></a></h1> 
+  </header>  
+  <!--==============================content================================-->
+    <section id="content">
+    	<div class="header-block">
+            <nav>  
+              <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Events</a></li>
+                    <li><a href="../Front/Blocs.php">Blocs</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="current"><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="cycle">
+                <div id="s2">
+                  <div><div class="banner">Vivez L'experience avec<span>Land'Na</span></div></div>  
+                  <div><div class="banner">Rejouissez-vous avec<span>Land'Na</span></div></div>
+                  <div><div class="banner">Divertissez-vous avec<span>Land'Na</span></div></div></div>
+              <div id="nav"></div>
+            </div>
+        </div>
+    	<div class="container_24 top-3">  
+            <div class="grid_7">
+                <h2 class="h2-4">Contact info:</h2>
+                <div class="map img-border">
+                  <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                </div>
+                <dl class="adr">
+                    <dt>Action</dt>
+                    <dd class="upper">8901 Marmora Road, Glasgow, D04 89GR</dd>
+                    <dd><span class="upper">Telephone:</span><strong>+1 959 603 6035</strong></dd>
+                    <dd><span class="upper">Fax:</span><strong>+1 504 889 9898</strong></dd>
+                    <dd><span class="upper">Email:</span><a href="#" class="link">mail@demolink.org</a></dd>
+                </dl> 
+            </div>
+            <div class="grid_16 prefix_1">
+                <h2 class="h2-4">Contact form:</h2>
+                <form id="form" method="post" >
+                  <fieldset>
+                    <label><strong>Full name:</strong><input type="text" value=""></label>
+                    <label><strong>Email:</strong><input type="text" value=""></label>
+                    <label><strong>Message:</strong><textarea></textarea></label>
+                    <div class="btns"><a href="#" class="link-1">clear</a><a href="#" class="link-1" onClick="document.getElementById('form').submit()">send</a></div>
+                  </fieldset>  
+                </form> 
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section> 
+<!--==============================footer=================================-->
+  <footer>
+      <p><strong>Action</strong> <span>© 2012</span></p>
+     Website Template designed by <a href="http://store.templatemonster.com?aff=netsib1" target="_blank" rel="nofollow" class="link">TemplateMonster</a>
+  </footer>	
+</div>  
+</body>
+</html>
